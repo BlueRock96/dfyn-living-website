@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import AboutFooter from "../../component/about-footer/AboutFooter";
-import DfynLiving from "../../component/dfyn-living/DfynLiving";
-import RoleWithUs from "../../component/role-with-us/RoleWithUs";
-import WhyDfyn from "../../component/why-dfyn/WhyDfyn";
+// import AboutFooter from "../../component/about-footer/AboutFooter";
+// import DfynLiving from "../../component/dfyn-living/DfynLiving";
+// import RoleWithUs from "../../component/role-with-us/RoleWithUs";
+// import WhyDfyn from "../../component/why-dfyn/WhyDfyn";
 import WorkingWithUs from "../../component/working-with-us/WorkingWithUs";
 
 export default function Career() {
@@ -21,10 +21,10 @@ export default function Career() {
       ) : (
         <>
           <WorkingWithUs />
-          <WhyDfyn />
-          <RoleWithUs />
+          {/* <WhyDfyn /> */}
+          {/* <RoleWithUs />
           <DfynLiving />
-          <AboutFooter />
+          <AboutFooter /> */}
         </>
       )}
     </div>

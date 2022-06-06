@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import AboutFooter from "../../component/about-footer/AboutFooter";
-import ApplicationReceived from "../../component/application-received/ApplicationReceived";
-import Consumers from "../../component/consumers/Consumer";
-import DfynLiving from "../../component/dfyn-living/DfynLiving";
+// import AboutFooter from "../../component/about-footer/AboutFooter";
+// import ApplicationReceived from "../../component/application-received/ApplicationReceived";
+// import Consumers from "../../component/consumers/Consumer";
+// import DfynLiving from "../../component/dfyn-living/DfynLiving";
 
 export default function About() {
   const [loading, setLoading] = useState(true);
@@ -20,10 +20,10 @@ export default function About() {
         </div>
       ) : (
         <>
-          <Consumers />
+          {/* <Consumers />
           <ApplicationReceived />
           <DfynLiving />
-          <AboutFooter />
+          <AboutFooter /> */}
         </>
       )}
     </>
