@@ -1,0 +1,52 @@
+.home-media-wrapper {
+  background-color: #000000;
+  padding-top: 133px;
+  padding-bottom: 60px;
+  .header {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 32px;
+    letter-spacing: 6.75px;
+    color: #b08a76;
+    text-align: center;
+  }
+  .small-text {
+    text-align: center;
+    margin-top: 63px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #dbdbdb;
+  }
+  .message-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    .input-message {
+        height: 25px;
+        width: 301px;
+        border:none;
+        border-radius: 0px;
+        &:focus{
+            outline: none;
+        }
+    }
+    .btn-submit {
+      width: 112px;
+      height: 25px;
+      background: #b08a76;
+      border-radius: 0px;
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

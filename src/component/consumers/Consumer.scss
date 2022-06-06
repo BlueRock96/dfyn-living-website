@@ -1,0 +1,35 @@
+.consumer-wrapper {
+  height: 548px;
+  background-color: #000000;
+  .consumer-heading {
+    padding-top: 25px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 17.1px;
+    color: #b08a76;
+  }
+  .content {
+    margin-top: 47px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #e8dfdf;
+    font-family: "Montserrat";
+    font-weight: 300;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .content-caps {
+    margin-top: 24px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.16px;
+    color: #ffffff;
+    text-align: center;
+  }
+}

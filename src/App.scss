@@ -1,0 +1,47 @@
+.app-nav-wrapper {
+  background-color: #000000;
+  padding-top: 50px;
+  .app-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    .nav-link {
+      margin-left: 10px;
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 50px;
+      text-align: center;
+      color: #B08A76;
+      padding: 10px 60px;
+    }
+  }
+}
+
+
+.loader {
+  position: absolute;
+  display: flex;
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
+  width: 60px;
+  height: 60px;
+  border: 0.3em solid #f8f7f7;
+  border-left: 0.3em solid #B08A76;
+  border-radius: 50%;
+  animation: load8 1.1s infinite linear;
+  transition: opacity 0.3s;
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-wrapper{
+  height: 100vh;
+}

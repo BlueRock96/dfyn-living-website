@@ -1,0 +1,111 @@
+.application-received-wrapper {
+  // height: 955px;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  background-repeat: no-repeat;
+ 
+  .app-heading {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 9.45px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 41px;
+  }
+  .date-between {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .count-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 11px;
+    .each-count-box {
+      margin-left: 1px;
+    }
+  }
+  .brand-tag {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.16px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 69px;
+  }
+  .brand-big-title {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: 17.1px;
+    color: #000000;
+    text-align: center;
+    padding-top: 48px;
+  }
+  .small-title {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
+    color: #e8dfdf;
+    padding-top: 27px;
+  }
+  .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    .content {
+      width: 600px;
+      text-align: center;
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 25px;
+      .p-30 {
+        padding-top: 30px;
+      }
+      .p-18 {
+        padding-top: 18px;
+      }
+    }
+  }
+  // .network-image {
+  //   height: 220px;
+  //   // background-size: cover;
+  //   // background-position: center;
+  //   // background-repeat: no-repeat;
+  //   text-align: center;
+  //   margin-top: -30px;
+  //   img{
+  //     width: 140px;
+  //     height: 140px;
+  //   }
+  // }
+}
+
+.network-image {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}

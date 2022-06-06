@@ -1,0 +1,164 @@
+.home-hero-wrapper {
+  background-color: #000000;
+  padding-bottom: 100px;
+  .hero-left {
+    .big-title {
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 84px;
+      line-height: 176px;
+      color: #ffffff;
+      margin-left: -9px;
+    }
+    .small-title {
+      margin-top: -50px;
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 40px;
+      letter-spacing: 1.5px;
+      color: #e8dfdf;
+    }
+    .tag {
+      margin-top: 44px;
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 19px;
+      letter-spacing: 2.28px;
+      background: linear-gradient(
+        90deg,
+        #b08a76 2.97%,
+        #b08a76 49.41%,
+        #c2a799 97.03%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .tag-another {
+      margin-top: 24px;
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29px;
+      background: linear-gradient(
+        90deg,
+        #b08a76 2.97%,
+        #b08a76 49.41%,
+        #c2a799 97.03%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .text-bigest {
+      margin-top: 18px;
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: 0.9px;
+      color: #e8dfdf;
+    }
+    .text-bigger {
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 22px;
+      letter-spacing: 0.66px;
+      color: #e8dfdf;
+    }
+    .text-smaller {
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 22px;
+      letter-spacing: 2.8px;
+      color: #e8dfdf;
+    }
+    .coming-soon-text {
+      margin-top: 19px;
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: 0.9px;
+      color: #f24ea8;
+    }
+    .app-image {
+      display: flex;
+      flex-direction: row;
+      margin-top: 5px;
+      .each-app-image-1 {
+        img {
+          width: 80%;
+        }
+      }
+      .each-app-image-2 {
+        img {
+          width: 80%;
+          margin-left: -30px;
+        }
+      }
+    }
+    .download-content {
+      margin-top: 17px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #c2a799;
+    }
+    .btn-wrapper {
+      .click-here {
+        margin-top: 10px;
+        padding: 5px 10px;
+        width: 80px;
+        height: 30px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 10px;
+        color: #c2a799;
+        border: 1px solid #c2a799;
+      }
+    }
+    .text-content {
+        margin-top: 68px;
+      .white {
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.9px;
+        color: #e8dfdf;
+      }
+      .color{
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.9px;
+        color: #B08A76;
+      }
+    }
+  }
+  .hero-right {
+      display: flex;
+      display: row-reverse;
+      .girl-cap{
+          margin-top: 60px;
+          width: 100%;
+      }
+      .girl-ear-ring{
+        position: absolute;
+        width: 336px;
+        height: 291px;
+        left: 571px;
+        top: 411px;
+        //   position: absolute;
+        //   bottom: 0;
+      }
+  }
+}
