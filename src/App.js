@@ -9,10 +9,9 @@ const  App =() => {
   return (
     <Routes>
       <Route element={<NavLayout />}>
-        <Route index element={<Home />} />
+        <Route index element={<About />} />
         <Route exact path="/careers" element={<Career />} />
-        {/* <Route exact path="/home" element={<Home />} /> */}
-        <Route exact path="/about" element={<About />} />
+        <Route exact path="/home" element={<Home />} />
         <Route path="*" element={<p>There's nothing here: 404!</p>} />
       </Route>
     </Routes>
@@ -30,13 +29,13 @@ const NavLayout = () => {
     <div className="app-nav-wrapper">
       <div className="container">
       <nav className="app-nav">
-        <NavLink to="/about" style={style} className="nav-link">
+        <NavLink to="/" style={style} className="nav-link">
           About
         </NavLink>
         <NavLink to="/careers" style={style} className="nav-link">
           Careers
         </NavLink>
-        <NavLink to="/" style={style} className="nav-link">
+        <NavLink to="/home" style={style} className="nav-link">
           Home
         </NavLink>
       </nav>
