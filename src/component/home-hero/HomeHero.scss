@@ -1,6 +1,11 @@
+@import '../../media.scss';
 .home-hero-wrapper {
   background-color: #000000;
   padding-bottom: 100px;
+  @include mobile-xs{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .hero-left {
     .big-title {
       font-family: "Montserrat";
@@ -9,6 +14,11 @@
       line-height: 176px;
       color: #ffffff;
       margin-left: -9px;
+      @include mobile-xs{
+        font-size: 50px;
+      line-height: 150px;
+      text-align: center;
+      }
     }
     .small-title {
       margin-top: -50px;
@@ -18,6 +28,9 @@
       line-height: 40px;
       letter-spacing: 1.5px;
       color: #e8dfdf;
+      @include mobile-xs{
+        text-align: center;
+      }
     }
     .tag {
       margin-top: 44px;
@@ -146,7 +159,10 @@
   }
   .hero-right {
       display: flex;
-      display: row-reverse;
+      flex-direction: row-reverse;
+      @include mobile-xs{
+        flex-direction: column;
+      }
       .girl-cap{
           margin-top: 60px;
           width: 100%;
@@ -157,8 +173,17 @@
         height: 291px;
         left: 571px;
         top: 411px;
-        //   position: absolute;
-        //   bottom: 0;
+        @include mobile-xs{
+          position: relative;
+          top: 0;
+          left: 0;
+          display: block;
+          margin-top: 50px;
+        }
+        @include tablet{
+          left: 360px;
+          top: 520px;
+        }
       }
   }
 }

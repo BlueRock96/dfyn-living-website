@@ -1,9 +1,14 @@
+@import '../../media.scss';
 .why-dfyn-wrapper {
   background-color: #000000;
   margin-top: -20px;
   text-align: center;
   padding-top: 60px;
   padding-bottom: 99px;
+  @include mobile-xs{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .app-title {
     // padding-top: 60px;
     font-family: "Montserrat";

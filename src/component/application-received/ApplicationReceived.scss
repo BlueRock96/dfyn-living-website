@@ -1,10 +1,19 @@
+@import "../../media.scss";
 .application-received-wrapper {
-  // height: 955px;
   background-size: cover;
   background-position: top;
   position: relative;
   background-repeat: no-repeat;
- 
+  @include mobile-xs {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: none !important;
+    background-color: #d2b4a9;
+  }
+  @include tablet{
+    background-image: none !important;
+    background-color: #d2b4a9;
+  }
   .app-heading {
     font-family: "Montserrat";
     font-weight: 400;
@@ -84,18 +93,6 @@
       }
     }
   }
-  // .network-image {
-  //   height: 220px;
-  //   // background-size: cover;
-  //   // background-position: center;
-  //   // background-repeat: no-repeat;
-  //   text-align: center;
-  //   margin-top: -30px;
-  //   img{
-  //     width: 140px;
-  //     height: 140px;
-  //   }
-  // }
 }
 
 .network-image {
@@ -107,5 +104,15 @@
   img {
     width: 200px;
     height: 200px;
+  }
+  @include mobile-xs{
+    background-color: #d2b4a9;
+    background-image: none !important;
+    margin-top: -10px;
+  }
+  @include tablet{
+    background-color: #d2b4a9;
+    background-image: none !important;
+    margin-top: -10px;
   }
 }

@@ -1,6 +1,11 @@
+@import '../../media.scss';
 .consumer-wrapper {
-  height: 548px;
+  min-height: 548px;
   background-color: #000000;
+  @include mobile-xs{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .consumer-heading {
     padding-top: 25px;
     font-family: "Montserrat";
@@ -10,6 +15,9 @@
     text-align: center;
     letter-spacing: 17.1px;
     color: #b08a76;
+    @include mobile-xs{
+      font-size: 20px;
+    }
   }
   .content {
     margin-top: 47px;
@@ -21,6 +29,12 @@
     font-weight: 300;
     padding-left: 200px;
     padding-right: 200px;
+    @include mobile-xs{
+      padding: 10px;
+    }
+    @include tablet{
+      padding: 30px;
+    }
   }
   .content-caps {
     margin-top: 24px;

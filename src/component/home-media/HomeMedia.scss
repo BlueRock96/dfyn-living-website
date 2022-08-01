@@ -1,7 +1,14 @@
+@import "../../media.scss";
 .home-media-wrapper {
   background-color: #000000;
   padding-top: 133px;
   padding-bottom: 60px;
+  @include mobile-xs {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
   .header {
     font-family: "Montserrat";
     font-weight: 400;
@@ -26,13 +33,13 @@
     justify-content: center;
     margin-top: 10px;
     .input-message {
-        height: 25px;
-        width: 301px;
-        border:none;
-        border-radius: 0px;
-        &:focus{
-            outline: none;
-        }
+      height: 25px;
+      width: 301px;
+      border: none;
+      border-radius: 0px;
+      &:focus {
+        outline: none;
+      }
     }
     .btn-submit {
       width: 112px;

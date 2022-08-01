@@ -9,10 +9,10 @@ const  App =() => {
   return (
     <Routes>
       <Route element={<NavLayout />}>
-        <Route index element={<About />} />
+        <Route index element={<Home />} />
         <Route exact path="/careers" element={<Career />} />
-        <Route exact path="/home" element={<Home />} />
-        <Route path="*" element={<p>There's nothing here: 404!</p>} />
+        <Route exact path="/about" element={<About />} />
+        <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>
   );
@@ -29,13 +29,13 @@ const NavLayout = () => {
     <div className="app-nav-wrapper">
       <div className="container">
       <nav className="app-nav">
-        <NavLink to="/" style={style} className="nav-link">
+        <NavLink to="/about" style={style} className="nav-link">
           About
         </NavLink>
         <NavLink to="/careers" style={style} className="nav-link">
           Careers
         </NavLink>
-        <NavLink to="/home" style={style} className="nav-link">
+        <NavLink to="/" style={style} className="nav-link">
           Home
         </NavLink>
       </nav>
@@ -47,6 +47,20 @@ const NavLayout = () => {
   );
 };
 
-
+const PageNotFound =() =>{
+  const navigateHome = () =>{
+    window.location.href = "/"
+  }
+  return(
+    <>
+    <div className="page-not-found">
+      <div className="content">
+      <h1>Opps , 404!</h1>
+      <button className="btn click-home" onClick={navigateHome}>Click Here</button>
+      </div>
+    </div>
+    </>
+  )
+};
 
 export default App;

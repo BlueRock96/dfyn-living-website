@@ -1,9 +1,13 @@
+@import '../../media.scss';
 .working-with-us-wrapper {
   background-color: #000000;
+  @include mobile-xs{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .hero-image {
     height: 100%;
     width: 100%;
-    // background-color: red;
     text-align: center;
     object-fit: cover;
     img {
@@ -19,7 +23,7 @@
     .content {
       background: #c2a799;
       border-radius: 0px;
-      height: 258px;
+      min-height: 258px;
       width: 100%;
       margin-left: 120px;
       margin-right: 120px;
@@ -28,33 +32,40 @@
       padding-left: 50px;
       padding-right: 50px;
       padding-bottom: 64px;
-      .title{
-        font-family: 'Montserrat';
+      @include mobile-xs{
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px;
+      }
+      .title {
+        font-family: "Montserrat";
         font-style: normal;
         font-weight: 400;
         font-size: 27px;
         line-height: 33px;
         letter-spacing: 0.84px;
-        color: #FFFFFF;
+        color: #ffffff;
         margin-bottom: 27px;
+        @include mobile-xs{
+          font-size: 20px;
+        }
       }
-      p{
-        font-family: 'Montserrat';
+      p {
+        font-family: "Montserrat";
         font-weight: 400;
         font-size: 11px;
         line-height: 14px;
         text-align: center;
         color: #000000;
-        
       }
     }
   }
-  .tag-section{
-    font-family: 'Montserrat';
+  .tag-section {
+    font-family: "Montserrat";
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
     margin-top: 40px;
   }
