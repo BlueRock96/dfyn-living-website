@@ -41,5 +41,5 @@ app.use((req, res, next) => {
 
 
 //assign port
-var port = process.env.PORT || 8081;
+var port = process.env.PORT || 81;
 app.listen(port, () => console.log("server run at port " + port));
